@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Ancizar Sans';
+  src: url('./assets/ANCIZAR 7.0/Ancizar Sans_02042016/AncizarSans-Light_02042016.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ancizar Sans';
+  src: url('./assets/ANCIZAR 7.0/Ancizar Sans_02042016/AncizarSans-Regular_02042016.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ancizar Sans';
+  src: url('./assets/ANCIZAR 7.0/Ancizar Sans_02042016/AncizarSans-Bold_02042016.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ancizar Sans';
+  src: url('./assets/ANCIZAR 7.0/Ancizar Sans_02042016/AncizarSans-Black_02042016.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Italics */
+@font-face {
+  font-family: 'Ancizar Sans';
+  src: url('./assets/ANCIZAR 7.0/Ancizar Sans_02042016/AncizarSans-Italic_02042016.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Ancizar Sans';
+  src: url('./assets/ANCIZAR 7.0/Ancizar Sans_02042016/AncizarSans-BoldItalic_02042016.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  font-family:
+    'Ancizar Sans', Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+nav {
+  background-image: url('./images/backgrounds/headers/bg-header.png');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+}
